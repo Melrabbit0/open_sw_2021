@@ -27,12 +27,10 @@ na<Right><Right><Right><Esc>na<Right><Right><Right><BS>b<Esc>na<Right>
 /1로 1이라는 숫자를 찾은 후 그 숫자를 n으로 넘기면서 각각의 n으로 바꿔주었다.
 그 다음에 y를 %s/y/abs(를 통해 교체해주고 남은 color 부분은 /='를통해 
 그 부분을 찾은 다음 차례로 교체해주는 방식으로 진행하였다.
-
 스코어 111
 
 5번 문제
 La<BS><Left>student_id,name,age,score<Right><CR><Esc>ZZ
 단축키 L을 통해 문서의 최하단으로 이동한 후 a를 통해 편집모드로 진입하고 문자열을 삽입한다
 그 뒤 엔터를 눌러준 후 모드를 빠져나온다.
-
 스코어 34
