@@ -19,10 +19,12 @@ O를 눌러 새로운 줄을 추가하며 편집모드로 들어가 주어진 �
 4번 문제
 /1<CR>na)<Esc>nna<BS>2<Esc>na<BS>2)<Esc>na<BS>2<Esc>na<BS>3<Esc>na<BS>3)
 <Esc>na<BS>3<Esc>na<BS>4<Esc>na<BS>4)<Esc>na<BS>4<Esc>:%s/y/abs(Y<BS>Y<BS>y<CR>/r='<CR>
-na<Right><Right><Right><Esc>na<Right><Right><Right><BS>b<Esc>na<Right><Right><Right><BS>g<BS>r<Esc>na<Right><Right><Right><BS>g<Esc>ZZ
+na<Right><Right><Right><Esc>na<Right><Right><Right><BS>b<Esc>na<Right>
+<Right><Right><BS>g<BS>r<Esc>na<Right><Right><Right><BS>g<Esc>ZZ
 
 /1로 1이라는 숫자를 찾은 후 그 숫자를 n으로 넘기면서 각각의 n으로 바꿔주었다.
-그 다음에 y를 %s/y/abs(를 통해 교체해주고 남은 color 부분은 /='를 통해 그 부분을 찾은 다음 차례로 교체해주는 방식으로 진행하였다.
+그 다음에 y를 %s/y/abs(를 통해 교체해주고 남은 color 부분은 /='를 통해 
+그 부분을 찾은 다음 차례로 교체해주는 방식으로 진행하였다.
 
 5번 문제
 La<BS><Left>student_id,name,age,score<Right><CR><Esc>ZZ
